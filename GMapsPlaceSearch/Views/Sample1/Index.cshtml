@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div class="row">
+    <div class="pac-card" id="pac-card">
+        <div id="pac-container">
+            <div class="form-group">
+                <input type="text" class="form-control" id="pac-input">
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-8">
+        <div style="width:700px;height:500px">
+            <div id="map"></div>
+        </div>
+
+    </div>
+    <div class="col-sm-4"><ul id="linkList"></ul>
+    </div>
+</div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFO3E7FHWoGQnDBaC0_R0Az1U3t8AHVkE&libraries=places&callback" ></script>
